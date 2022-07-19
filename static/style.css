@@ -267,11 +267,11 @@ hr{
 
 @media (max-width: 1860px){
     .carousel-control-prev{
-        margin-left: 0;
+        display: none;
     }
 
     .carousel-control-next{
-        margin-right: 0;
+        display: none;
     }
 
     [data-anime="right"] {
@@ -298,4 +298,16 @@ hr{
         width: auto;
         padding: 20px 15px;
     }
+}
+
+.carousel-indicators{
+    margin-bottom: -35px;
+}
+
+.carousel-control-next{
+    margin-right: -8rem;
+}
+
+.carousel-control-prev{
+    margin-left: -8rem;
 }
